@@ -1,0 +1,13 @@
+#container{
+    
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    border: solid black;
+    width: 100px;
+    height: 100px;
+    flex: 0 0 5.8%;
+}
