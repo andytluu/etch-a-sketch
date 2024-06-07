@@ -1,4 +1,4 @@
-let parent = document.querySelector("body");
+let parent = document.querySelector("#container");
 
 for(let i = 0; i<256; i++){
     let div = document.createElement("div");
