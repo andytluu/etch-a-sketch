@@ -13,6 +13,9 @@ for(let i = 0; i<256; i++){
 
 button.addEventListener("click",function(){
     let grid = prompt("How many squares?");
+    if(grid >= 101){
+        grid = prompt("Enter less than 100");
+    }
     parent.replaceChildren();
     for(let i = 0;i < (grid * grid); i++){
         let div = document.createElement("div");
